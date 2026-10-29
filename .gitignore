@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+!.env.example
+.databrickscfg
+.databricks/
+
+# Local data files
+*.csv
+*.parquet
+*.xlsx
+raw_payloads/
+daily_observations/
+
+# Logs and local Power BI cache
+*.log
